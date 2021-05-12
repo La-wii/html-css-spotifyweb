@@ -122,7 +122,7 @@ footer{
     color: #a3a3a3;
 }
 
-.recently-played h2{
+.recently-played h2, .creati-per-wii h2{
     color: white;
     margin-left: 20px;
 }
@@ -133,17 +133,48 @@ footer{
 
 .album{
     width: calc(100% / 6);
-    height: 100px;
+    /* height: 100px; */
     margin: 10px;
 }
 
-.album img{
+.album img,{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-bottom: 30px;
 }
 
+.info-album{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
+.info-album-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+}
 
+.title{
+    color: white;
+    font-size: 20px;
+}
+
+.subtitle{
+    color: #a3a3a3;
+    font-size: 16px;
+}
+
+/* creati per wii */
+
+.creati-per-wii p{
+    color: #a3a3a3;
+    font-size: 16px;
+    margin-left: 20px;
+}
 
 
