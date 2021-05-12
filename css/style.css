@@ -15,6 +15,7 @@ main{
     clear: both;
 }
 
+/* aside */
 .aside{
     background-color: black;
     width: 200px;
@@ -72,7 +73,7 @@ main{
 }
 
 .content{
-    background-color: red;
+    background-color: #141922;
     width: calc(100% - 200px);
     height: 100%;
 }
@@ -85,3 +86,44 @@ footer{
     background-color: yellow;
     height: 100px;
 }
+
+.content-top{
+    background-color: #080b12;
+    /* height: 80px; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-top a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.content-link{
+    display: flex;
+    justify-content: center;   
+}
+
+.content-link ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px 10px;   
+}
+
+.content-link ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #a3a3a3;
+}
+
+.recently-played h2{
+    color: white;
+    margin-left: 20px;
+}
+
