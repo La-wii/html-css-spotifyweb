@@ -6,7 +6,7 @@
 
 main{
     background-color: black;
-    height: calc(100vh - 100px);
+    height: calc(100% - 100px);
 }
 
 .clearfix::after{
@@ -18,7 +18,7 @@ main{
 /* aside */
 .aside{
     background-color: black;
-    width: 200px;
+    width: 15%;
     height: 100%;
 }
 
@@ -74,7 +74,7 @@ main{
 
 .content{
     background-color: #141922;
-    width: calc(100% - 200px);
+    width: calc(100% - 15%);
     height: 100%;
 }
 
@@ -105,6 +105,10 @@ footer{
     margin: 20px;
 }
 
+.container-content{
+    overflow-y: auto;
+}
+
 .content-link{
     display: flex;
     justify-content: center;   
@@ -122,12 +126,16 @@ footer{
     color: #a3a3a3;
 }
 
-.recently-played h2, .creati-per-wii h2{
+.recently-played h2, 
+.creati-per-wii h2, 
+.artisti-popolari h2{
     color: white;
     margin-left: 20px;
 }
 
-.recently-played-album{
+.recently-played-album, 
+.playlist-wii,
+.artisti-popolari-album{
     display: flex;
 }
 
@@ -171,10 +179,15 @@ footer{
 
 /* creati per wii */
 
-.creati-per-wii p{
+.creati-per-wii p,
+.artisti-popolari p{
     color: #a3a3a3;
     font-size: 16px;
     margin-left: 20px;
 }
 
+/* artisti popolari*/
+.radius-50{
+    border-radius: 50%;
+}
 
