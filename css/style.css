@@ -82,11 +82,6 @@ main{
     float: left;
 }
 
-footer{
-    background-color: yellow;
-    height: 100px;
-}
-
 .content-top{
     background-color: #080b12;
     /* height: 80px; */
@@ -191,3 +186,11 @@ footer{
     border-radius: 50%;
 }
 
+footer{
+    background-color: #282828;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
