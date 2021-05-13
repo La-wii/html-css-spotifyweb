@@ -104,8 +104,6 @@ main{
     font-size: 22px;
 }
 
-
-
 /* inizio content */
 .content{
     background-color: #141922;
@@ -139,6 +137,7 @@ main{
 .container-content{
     overflow-y: auto;
 }
+
 
 .content-link{
     display: flex;
@@ -222,6 +221,10 @@ main{
     border-radius: 50%;
 }
 
+.mb-100{
+    margin-bottom: 100px;
+}
+
 /* footer*/
 footer{
     background-color: #282828;
@@ -230,9 +233,39 @@ footer{
     bottom: 0;
     left: 0;
     right: 0;
+    display: flex;
+    padding-top: 10px;
 }
 
-.mb-100{
-    margin-bottom: 100px;
+.song{
+    margin-right: 10px;
+}
+
+.song img{
+    height: 80%;
+    margin-left: 20px;
+}
+
+.album-song,
+.heart,
+.folder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.album-song span{
+    color: #a3a3a3;
+    font-size: 14px;
+}
+
+.heart,
+.folder{
+    color: #a3a3a3;
+    font-size: 16px;
+}
+
+.heart{
+    margin: 0 30px;
 }
 
