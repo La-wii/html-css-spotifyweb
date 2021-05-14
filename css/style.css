@@ -250,21 +250,64 @@ footer{
     justify-content: space-between;
 }
 
-.song, .control{
-    width: 20%;
-    background-color: red;
-    height: 80%;
+.song{
+    display: flex;
+    justify-content: flex-start;  
 }
 
-.buttons{
-    width: 40%;
-    background-color: blue;
+.song, 
+.control{
+    /* background-color: red; */
     height: 80%;
 }
 
 .song img{
     height: 100%;
-    margin: 0 20px;
+    margin: 0 10px 0 20px;
 }
 
+.singer-song,
+.song-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-around;
+    color: #a3a3a3;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.song-icon{
+    margin: 0 15px;
+    font-size: 22px;
+}
+
+.buttons{
+    width: 40%;
+    background-color: blue;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button-icon{
+    background-color: yellow;
+    height: 60%;
+}
+
+.time{
+    background-color: violet;
+    height: 30%;
+    margin-top: 10px;
+}
+
+.control{
+    background-color: red;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end; 
+}
 
