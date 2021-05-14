@@ -285,8 +285,8 @@ footer{
 }
 
 .buttons{
-    width: 40%;
-    background-color: blue;
+    /* width: 40%; */
+    /* background-color: blue; */
     height: 90%;
     display: flex;
     justify-content: center;
@@ -294,20 +294,53 @@ footer{
 }
 
 .button-icon{
-    background-color: yellow;
+    /* background-color: yellow; */
     height: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-items{
+    color: #a3a3a3;
+    font-size: 24px;
+    margin-right: 20px;
+
 }
 
 .time{
-    background-color: violet;
     height: 30%;
     margin-top: 10px;
+    width: 40%;
+    display: flex;
+    /* justify-content: center; */
+}
+
+.time-content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.time span{
+    color: #a3a3a3;
+    font-size: 12px;
+    margin: 0 20px;
+}
+
+.time-line{
+    width: 500px;
+    border-bottom: 3px solid #a3a3a3;
 }
 
 .control{
     background-color: red;
     width: 20%;
     display: flex;
+    flex-direction: column;
     justify-content: flex-end; 
 }
 
+.control-icon,
+.control-time{
+    display: flex;
+}
