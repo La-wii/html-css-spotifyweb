@@ -42,6 +42,15 @@ main{
     margin-bottom: 10px;
 }
 
+.item{
+    display: flex;
+    /* justify-content: center; */
+}   
+
+.item a{
+    padding-top: 10px;
+}
+
 .item a:hover{
     color: white;
 }
@@ -376,3 +385,45 @@ footer{
     margin: 32px 15px;
 }
 
+/* inizio media query md */
+@media screen and (max-width:720px) {
+
+    .container{
+        max-width: 720px;
+        /* width: 100%; */
+    }
+
+    .aside{
+        /* background-color: black; */
+        width: 15%;
+        height: calc(100% - 100px);
+    }
+
+    .logo{
+        width: 80%;
+        padding: 20px 10px;
+    }
+
+    .item a, .text-trasform span, .crea-playlist, 
+    .elenco-playlist, .app-wii .user-name, .app-text{
+        font-size: 12px;
+    }
+
+    .crea-playlist .fa-plus-square{
+        font-size: 20px;
+    }
+
+    .elenco-playlist .mb-20{
+        margin-bottom: none;
+    }
+
+    .elenco-playlist{
+        margin-bottom: 40px;
+    }
+
+    .app{
+        padding: 5px;
+        color: #a3a3a3;
+    }
+
+}   
