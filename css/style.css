@@ -294,7 +294,6 @@ footer{
 }
 
 .button-icon{
-    /* background-color: yellow; */
     height: 60%;
     display: flex;
     justify-content: center;
@@ -312,7 +311,6 @@ footer{
     margin-top: 10px;
     width: 40%;
     display: flex;
-    /* justify-content: center; */
 }
 
 .time-content{
@@ -333,14 +331,24 @@ footer{
 }
 
 .control{
-    background-color: red;
-    width: 20%;
     display: flex;
-    flex-direction: column;
     justify-content: flex-end; 
 }
 
-.control-icon,
-.control-time{
+.control-icon{
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #a3a3a3;
+    margin: 0 15px;
+}
+
+.control-time-line{
+    height: 10px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 3px solid #a3a3a3;
+    margin: 32px 15px;
 }
