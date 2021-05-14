@@ -42,9 +42,17 @@ main{
     margin-bottom: 10px;
 }
 
+.item a:hover{
+    color: white;
+}
+
 .aside a{
     text-decoration: none;
     color: #a3a3a3;
+}
+
+.aside span:hover{
+    color: white;
 }
 
 .text-trasform span{
@@ -156,6 +164,10 @@ main{
     color: #a3a3a3;
 }
 
+.content-link ul li a:hover{
+    border-bottom: 2px solid #a3a3a3;
+}
+
 .recently-played h2, 
 .creati-per-wii h2, 
 .artisti-popolari h2{
@@ -235,37 +247,24 @@ footer{
     right: 0;
     display: flex;
     padding-top: 10px;
+    justify-content: space-between;
 }
 
-.song{
-    margin-right: 10px;
+.song, .control{
+    width: 20%;
+    background-color: red;
+    height: 80%;
+}
+
+.buttons{
+    width: 40%;
+    background-color: blue;
+    height: 80%;
 }
 
 .song img{
-    height: 80%;
-    margin-left: 20px;
+    height: 100%;
+    margin: 0 20px;
 }
 
-.album-song,
-.heart,
-.folder{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.album-song span{
-    color: #a3a3a3;
-    font-size: 14px;
-}
-
-.heart,
-.folder{
-    color: #a3a3a3;
-    font-size: 16px;
-}
-
-.heart{
-    margin: 0 30px;
-}
 
