@@ -6,8 +6,6 @@
 
 main{
     background-color: black;
-    /* height: calc(100% - 100px); */
-    /* height: calc(100vh - 100px - 80px); */
     height: calc(100vh - 100px);
 }
 
@@ -21,7 +19,6 @@ main{
 .aside{
     background-color: black;
     width: 15%;
-    /* height: 100%; */
     height: calc(100% - 100px);
 }
 
@@ -159,7 +156,7 @@ main{
     height: 100%;
 }
 
-
+/* content-link */
 .content-link{
     display: flex;
     justify-content: center;  
@@ -182,6 +179,8 @@ main{
     border-bottom: 2px solid #a3a3a3;
 }
 
+/* recently played, creati per wii, artisti popolari common */
+
 .recently-played h2, 
 .creati-per-wii h2, 
 .artisti-popolari h2{
@@ -195,9 +194,9 @@ main{
     display: flex;
 }
 
+/* inizio album */
 .album{
     width: calc(100% / 6);
-    /* height: 100px; */
     margin: 10px;
 }
 
@@ -233,8 +232,7 @@ main{
     font-size: 16px;
 }
 
-/* creati per wii */
-
+/* creati per wii + artisti popolari common*/
 .creati-per-wii p,
 .artisti-popolari p{
     color: #a3a3a3;
@@ -264,6 +262,7 @@ footer{
     justify-content: space-between;
 }
 
+/* inizio song */
 .song{
     display: flex;
     justify-content: flex-start;  
@@ -271,13 +270,16 @@ footer{
 
 .song, 
 .control{
-    /* background-color: red; */
     height: 80%;
 }
 
 .song img{
     height: 100%;
     margin: 0 10px 0 20px;
+}
+
+.singer-song span:hover{
+    text-decoration: underline;
 }
 
 .singer-song,
@@ -298,9 +300,15 @@ footer{
     font-size: 22px;
 }
 
+/* hover white footer */
+.song-icon:hover,
+.button-items:hover, 
+.control-icon:hover{
+    color:white;
+}
+
+/* inizio button */
 .buttons{
-    /* width: 40%; */
-    /* background-color: blue; */
     height: 90%;
     display: flex;
     justify-content: center;
@@ -317,9 +325,9 @@ footer{
     color: #a3a3a3;
     font-size: 24px;
     margin-right: 20px;
-
 }
 
+/* inizio time */
 .time{
     height: 30%;
     margin-top: 10px;
@@ -344,6 +352,7 @@ footer{
     border-bottom: 3px solid #a3a3a3;
 }
 
+/* inizio control */
 .control{
     display: flex;
     justify-content: flex-end; 
@@ -366,3 +375,4 @@ footer{
     border-bottom: 3px solid #a3a3a3;
     margin: 32px 15px;
 }
+
