@@ -7,11 +7,12 @@
 main{
     background-color: black;
     /* height: calc(100% - 100px); */
-    height: calc(100% - 100px - 80px);
+    /* height: calc(100vh - 100px - 80px); */
+    height: calc(100vh - 100px);
 }
 
 .clearfix::after{
-    content: '';
+    content: ''; 
     display: table;
     clear: both;
 }
@@ -43,6 +44,7 @@ main{
     margin-left: 10px;
     margin-bottom: 10px;
 }
+
 
 .item a:hover{
     color: white;
@@ -149,6 +151,7 @@ main{
 
 .container-content{
     overflow-y: auto;
+    height: 100%;
 }
 
 
