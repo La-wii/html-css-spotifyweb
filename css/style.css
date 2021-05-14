@@ -6,7 +6,8 @@
 
 main{
     background-color: black;
-    height: calc(100% - 100px);
+    /* height: calc(100% - 100px); */
+    height: calc(100% - 100px - 80px);
 }
 
 .clearfix::after{
@@ -20,6 +21,7 @@ main{
     background-color: black;
     width: 15%;
     height: 100%;
+    /* height: calc(100% - 100px); */
 }
 
 .logo{
@@ -116,7 +118,6 @@ main{
 .content{
     background-color: #141922;
     width: calc(100% - 15%);
-    width: calc(100% - 15%);
     height: 100%;
 }
 
@@ -125,11 +126,15 @@ main{
 }
 
 .content-top{
-    background-color: #080b12;
-    /* height: 80px; */
+    background-color: rgba(12, 12, 27, 0.5);
+    height: 80px;
     display: flex;
     justify-content: flex-end;
-}
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 15%;
+} 
 
 .content-top a{
     text-transform: uppercase;
@@ -149,7 +154,8 @@ main{
 
 .content-link{
     display: flex;
-    justify-content: center;   
+    justify-content: center;  
+    margin-top: 100px; 
 }
 
 .content-link ul li{
