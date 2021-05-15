@@ -340,7 +340,7 @@ footer{
 .time{
     height: 30%;
     margin-top: 10px;
-    width: 40%;
+    /* width: 40%; */
     display: flex;
 }
 
@@ -357,8 +357,10 @@ footer{
 }
 
 .time-line{
+    display: flex;
     width: 500px;
     border-bottom: 3px solid #a3a3a3;
+    justify-content: center;
 }
 
 /* inizio control */
@@ -457,5 +459,30 @@ footer{
         width: calc(100% / 5);
     }
 
+    /* footer */
+    /* song */
+    .song-icon{
+        margin: 0 10px;
+        font-size: 22px;
+    }
+
+    /* time */
+    .time span{
+        color: #a3a3a3;
+        font-size: 12px;
+        margin: 0 10px;
+    }
+
+    .time-line{
+        width: 200px;
+    }
+
+    .control-icon{
+        margin: 0 10px;
+    }
+
+    .control-time-line{
+        width: 50px;
+    }
 
 }
