@@ -392,7 +392,8 @@ footer{
         max-width: 720px;
         /* width: 100%; */
     }
-    
+
+    /* aside */
     .aside{
         background-color: black;
         width: 25%;
@@ -408,6 +409,21 @@ footer{
         margin-bottom: 10px;
     }
 
+    .all-playlist{
+        height: 150px;
+        overflow-y: auto;
+        margin-bottom: 40px;
+    }
+
+    .app{
+        padding: 10px;
+    }
+
+    .icon-user, .user-name{
+        font-size: 12px;
+    }
+
+    /* content */
     .content{
         width: calc(100% - 25%);
         height: 100%;
@@ -423,4 +439,6 @@ footer{
     }  
     
     
+    
+
 }
