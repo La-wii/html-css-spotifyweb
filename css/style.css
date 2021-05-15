@@ -438,7 +438,20 @@ footer{
         left: 25%;
     }  
     
-    
-    
+    .content-link{
+        flex-wrap: wrap;
+        /* justify-content: center; */
+    }
+
+    .recently-played-album, 
+    .playlist-wii,
+    .artisti-popolari-album{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* chiedere perché???? */
+    .album{
+        width: calc(100% / 5);
+    }
 
 }
