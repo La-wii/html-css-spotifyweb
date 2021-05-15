@@ -87,7 +87,7 @@ main{
 .elenco-playlist{
     margin-left: 10px;
     color: #a3a3a3;
-    /* margin-bottom: 150px; */
+    margin-bottom: 150px;
 }
 
 /* inizio app */
@@ -410,9 +410,9 @@ footer{
     }
 
     .all-playlist{
-        height: 150px;
+        height: 180px;
         overflow-y: auto;
-        /* margin-bottom: 20px; */
+        margin-bottom: 30px;
     }
 
     .app{
