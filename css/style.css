@@ -87,7 +87,7 @@ main{
 .elenco-playlist{
     margin-left: 10px;
     color: #a3a3a3;
-    margin-bottom: 150px;
+    /* margin-bottom: 150px; */
 }
 
 /* inizio app */
@@ -412,15 +412,18 @@ footer{
     .all-playlist{
         height: 150px;
         overflow-y: auto;
-        margin-bottom: 40px;
+        /* margin-bottom: 20px; */
     }
 
     .app{
         padding: 10px;
     }
 
-    .icon-user, .user-name{
+    .icon-user{
         font-size: 12px;
+    }
+    .user-name{
+        font-size: 11px;
     }
 
     /* content */
@@ -453,5 +456,6 @@ footer{
     .album{
         width: calc(100% / 5);
     }
+
 
 }
