@@ -27,6 +27,10 @@ main{
     padding: 20px 10px;
 }
 
+.logo-small{
+    display: none;
+}
+
 .mb-30{
     margin-bottom: 30px;
 }
@@ -387,7 +391,7 @@ footer{
     margin: 32px 15px;
 }
 
-/* -------------------------- media query MD ----------------------------- */
+/* -------------------------- media query MD -------------------------- */
 @media screen and (max-width:960px) and (min-width:720px) {
 
     .container{
@@ -497,7 +501,7 @@ footer{
 
 }
 
-/* ------------------------------- Inizio SM ---------------------------- */
+/* ----------------------- Inizio SM --------------------- */
 @media screen and (max-width: 719px) and (min-width: 540px) {
 
     .container{
@@ -576,7 +580,7 @@ footer{
     .singer-song{
         font-size: 12px;
     }
-    
+
     .song-icon{
         margin: 0 5px;
         font-size: 10px;
@@ -623,3 +627,147 @@ footer{
     }
 
 }   
+
+/* ----------------------inizio container xs------------------------ */
+
+@media screen and (max-width: 539px) and (min-width: 360px) {
+
+    .container{
+        max-width: 539px;
+    }
+    
+    /* aside */
+    .aside{
+        width: 15%;
+    }
+
+    .logo,
+    .ricerca .item a,
+    .text-trasform,
+    .crea-playlist,
+    .all-playlist,
+    .app .app-text,
+    .app-wii .user-name{
+        display: none;
+    }
+
+    .logo-small{
+        display: block;
+        width: 30px;
+        margin: 20px auto 10px 10px;
+    }
+
+    .ricerca{
+        margin-bottom: 500px;
+    }
+
+    /* content */
+    .content{
+        width: calc(100% - 15%);
+        height: 100%;
+    }
+
+    .content-top{
+        top: 0;
+        right: 0;
+        left: 15%;
+    }  
+
+    .content-link{
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-items: center;
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    
+    .content-link ul li{
+        padding: 20px 5px;   
+    }
+
+    .recently-played h2, 
+    .creati-per-wii h2, 
+    .artisti-popolari h2,
+    .creati-per-wii p,
+    .artisti-popolari p{
+        margin-left: 20px;
+    }
+
+    .recently-played-album, 
+    .playlist-wii,
+    .artisti-popolari-album{
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 10px;
+    }
+
+    .album{
+        width: calc(100% / 2 - 20px);
+    }
+
+    /* inizio footer */
+    .song{
+        width: 30%;
+        margin-right: 5%;
+    }
+
+    .song img{
+        height: 50px;
+        width: 50px;
+        padding-top: 20px;
+        margin: 0 10px 0 10px;
+    }
+
+    .fs-14,
+    .singer-song{
+        font-size: 10px;
+    }
+
+    .song-icon{
+        margin: 0 5px;
+        font-size: 10px;
+    }
+
+    /* button */
+    .buttons{
+        width: 35%;
+        padding: 20px 0;
+        justify-content: center;
+    }
+
+    .button-items{
+        font-size: 10px;
+        margin-right: 5px;
+    }
+
+    .time{
+        justify-content: center;
+    }
+
+    .time span{
+        font-size: 10px;
+        margin: 0 5px;
+    }
+
+    .time-line{
+        padding-top: 10px;
+        width: 50px;
+        margin: 0 10px 0 10px;
+    }
+
+    /* control */
+    .control{
+        width: 30%;
+        justify-content: center;
+    }
+
+    .control-icon{
+        margin: 0 5px;
+        font-size: 10px;
+    }
+
+    .control-time-line{
+        width: 30px;
+        margin: 32px 5px;    
+    }
+}
