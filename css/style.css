@@ -572,6 +572,11 @@ footer{
         margin-right: 5%;
     }
 
+    .fs-14,
+    .singer-song{
+        font-size: 12px;
+    }
+    
     .song-icon{
         margin: 0 5px;
         font-size: 10px;
@@ -584,7 +589,7 @@ footer{
     }
 
     .button-items{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .time{
