@@ -342,7 +342,6 @@ footer{
 .time{
     height: 30%;
     margin-top: 10px;
-    /* width: 40%; */
     display: flex;
 }
 
@@ -465,7 +464,7 @@ footer{
 
     /* chiedere perché???? */
     .album{
-        width: calc(100% / 5);
+        width: calc(100% / 4 - 20px);
     }
 
     /* footer */
