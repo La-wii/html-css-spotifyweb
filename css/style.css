@@ -496,10 +496,32 @@ footer{
 
 }
 
-@media screen and (max-width: 540px) and (min-width: 362px) {
+/* inizio SM */
+@media screen and (max-width: 719px) and (min-width: 540px) {
 
-    .content-link ul li a{
+    .container{
+        max-width: 719px;
+    }
+    
+    /* aside */
+    .logo{
+        width: 80%;
+        /* padding: 20px 10px; */
+    }
+
+    .aside a,
+    .aside span,
+    .crea-playlist i,
+    .app-wii i,
+    .app-wii .user-name{
         font-size: 12px;
     }
 
-}
+    .all-playlist{
+        height: 150px;
+        overflow-y: auto;
+        margin-bottom: 80px;
+    }
+    
+
+}   
