@@ -388,10 +388,10 @@ footer{
 }
 
 /* inizio media query md pt 2 */
-@media screen and (max-width:720px) {
+@media screen and (max-width:960px) and (min-width:720px) {
 
     .container{
-        max-width: 720px;
+        max-width: 960px;
         /* width: 100%; */
     }
 
@@ -407,6 +407,7 @@ footer{
         padding: 20px 10px;
     }
 
+    /* playlist */
     .elenco-playlist{
         margin-bottom: 10px;
     }
@@ -448,6 +449,14 @@ footer{
         /* justify-content: center; */
     }
 
+    .recently-played h2, 
+    .creati-per-wii h2, 
+    .artisti-popolari h2,
+    .creati-per-wii p,
+    .artisti-popolari p{
+        margin-left: 10px;
+    }
+
     .recently-played-album, 
     .playlist-wii,
     .artisti-popolari-album{
@@ -483,6 +492,14 @@ footer{
 
     .control-time-line{
         width: 50px;
+    }
+
+}
+
+@media screen and (max-width: 540px) and (min-width: 362px) {
+
+    .content-link ul li a{
+        font-size: 12px;
     }
 
 }
