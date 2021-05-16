@@ -35,7 +35,6 @@ main{
     margin-bottom: 30px;
 }
 
-
 .mb-20{
     margin-bottom: 20px;
 }
@@ -48,7 +47,6 @@ main{
 
 .item{
     display: flex;
-    /* justify-content: center; */
 }   
 
 .item a{
@@ -462,6 +460,7 @@ footer{
     .artisti-popolari-album{
         display: flex;
         flex-wrap: wrap;
+        margin: 10px;
     }
 
     /* chiedere perché???? */
@@ -566,7 +565,7 @@ footer{
     }
 
     .album{
-        width: calc(100% / 3);
+        width: calc(100% / 2 - 30px);
     }
 
     /* footer */
