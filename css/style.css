@@ -23,7 +23,8 @@ main{
 }
 
 .logo{
-    width: 180px;
+    /* width: 180px; */
+    width: 80%;
     padding: 20px 10px;
 }
 
@@ -144,6 +145,7 @@ main{
     top: 0;
     right: 0;
     left: 15%;
+    /* z-index: 1; */
 } 
 
 .content-top a{
@@ -271,6 +273,7 @@ footer{
     display: flex;
     padding-top: 10px;
     justify-content: space-between;
+    /* z-index: 10; */
 }
 
 /* inizio song */
