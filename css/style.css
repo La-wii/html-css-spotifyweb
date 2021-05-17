@@ -190,8 +190,7 @@ main{
 
 .content-link ul li a:hover{
     color: white;
-    border-bottom: 2px solid greenyellow;
-    
+    border-bottom: 2px solid greenyellow;    
 }
 
 /* recently played, creati per wii, artisti popolari common */
@@ -233,7 +232,6 @@ main{
     top: 0;
     bottom: 0;
     right: 0;
-    /* background-color: rgba(0, 0, 0, 0.5); */
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -303,7 +301,6 @@ footer{
     display: flex;
     padding-top: 10px;
     justify-content: space-between;
-    /* z-index: 10; */
 }
 
 /* inizio song */
@@ -396,6 +393,10 @@ footer{
     border-bottom: 3px solid #a3a3a3;
     justify-content: center;
 }
+
+.time-line:hover{
+    border-bottom: 3px solid greenyellow;
+}   
 
 /* inizio control */
 .control{
@@ -801,4 +802,5 @@ footer{
         width: 30px;
         margin: 32px 5px;    
     }
+
 }
